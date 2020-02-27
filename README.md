@@ -36,7 +36,9 @@ follow UI/UX best practices and are consistent throughout the app.
 
 *Functionality*
 - - The application must be architected with the following components:
-    - [ ] A web frontend that accepts and validates search requests, obtains results by through an API implemented in the application backend, and displays results to the user.
+    - [ ] A web frontend that accepts and validates search requests, obtains 
+    results through an API implemented in the application backend, and displays 
+    them to the user.
     - [ ] An application backend that implements an API with a single endpoint responsible for implementing the photo search by using the [Mars Rover Photos API](https://api.nasa.gov/api.html#SSC).
 - [ ] Search for photos taken by the Curiosity rover based on the mission Sol (the mission day) and the rover camera that took the photo.
 - [ ] When searching both the Sol and Camera must be specified by the user.
@@ -47,7 +49,9 @@ follow UI/UX best practices and are consistent throughout the app.
 *Other*
 - [ ] Your repo needs to have a robust README.md
 - [ ] Make sure that there are no errors in the developer console before submitting
-- [ ] Your API key **should not** be exposed in your GitHub repo
+- [ ] Your API key **should not** be exposed in your frontend application or
+in your public GitHub repo. Note that there are ways to protect application 
+secrets without exposing them to the public.
 - [ ] Handle edge cases like page loading and error messages from the API, not 
 allowing API calls when query is empty, putting a timeout on a API call and 
 providing user feedback if it expires, and ensuring that user input is valid.
