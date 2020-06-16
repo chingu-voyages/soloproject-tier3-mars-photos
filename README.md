@@ -39,7 +39,7 @@ follow UI/UX best practices and are consistent throughout the app.
     - [ ] A web frontend that accepts and validates search requests, obtains 
     results through an API implemented in the application backend, and displays 
     them to the user.
-    - [ ] An application backend that implements an API with a single endpoint responsible for implementing the photo search by using the [Mars Rover Photos API](https://api.nasa.gov/api.html#SSC).
+    - [ ] An application backend that implements an API with a single endpoint responsible for implementing the photo search by using the [Mars Rover Photos API](https://api.nasa.gov/#mars-rover-photos).
 - [ ] Search for photos taken by the Curiosity rover based on the mission Sol (the mission day) and the rover camera that took the photo.
 - [ ] When searching both the Sol and Camera must be specified by the user.
 - [ ] Results are displayed when the user clicks the 'Find Photos' button. 
@@ -73,7 +73,7 @@ view of the user's favorite photos and the searches that retrieved them.
 
 ## API Information ##
 
-This project utilizes the [**Mars Rover Photos API**](https://api.nasa.gov/api.html#SSC). 
+This project utilizes the [**Mars Rover Photos API**](https://api.nasa.gov/#mars-rover-photos). 
 You will need to register for a [free api key](https://api.nasa.gov/index.html#apply-for-an-api-key) 
 and you should take care not to expose your key in your GitHub repo.
 
